@@ -53,8 +53,8 @@ HousePartyInvitee:
 1. In your controller implement the following endpoints:
 `ListInvites` that will return a simple list (using Content()) of all invites in the database
 `AddInvite` that will accept a `POST` message with the properties in the body and create a new invite in database
-`ModifyInvite` that will accept a `PUT` message with the properties in the body and update an existing invite in database that matches the passed in `id`
-`DeleteInvite` that will accept a `DELETE` message and an `id` and delete the matching invite from the database by `id`
+`ModifyInvite` that will accept a `PUT` message with the properties in the body and update an existing invite in database that matches the passed in `vipName`
+`DeleteInvite` that will accept a `DELETE` message and an `vipName` and delete the matching invite from the database by `vipName`
 
 2. *Create PostMan Tests for all cases and export to your repo*
 
