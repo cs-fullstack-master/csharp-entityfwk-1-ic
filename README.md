@@ -9,7 +9,7 @@ Create a new controller called `HousePartyController`
 Create a model called `HousePartyInvitee` with the following properties:
 
 HousePartyInvitee:
-- vipId - int
+- id - int
 - vipName - string
 - isAttending - bool
 - numberOfHousePartiesAttended - int
