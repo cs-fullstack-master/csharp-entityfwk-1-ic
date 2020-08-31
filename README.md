@@ -7,10 +7,10 @@ Create a wrapper class called `EFIntroductionWrapper`
 Create a model called `Product` with the following properties:
 
 Product:
-- product ID
-- product name
-- price
-- quantity
+- productID - int
+- productName - string
+- price - string
+- quantity - string
 
 * Create a `DbContext` called `ProductContext`
   * Use Sqlite configuration with a `Data Source` equal to `products.db`
