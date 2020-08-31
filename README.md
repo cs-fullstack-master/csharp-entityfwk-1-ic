@@ -9,10 +9,11 @@ Create a new controller called `HousePartyController`
 Create a model called `HousePartyInvitee` with the following properties:
 
 HousePartyInvitee:
-- vipName
-- isAttending
-- numberOfHousePartiesAttended
-- age
+- vipId - int
+- vipName - string
+- isAttending - bool
+- numberOfHousePartiesAttended - int
+- age - int
 
 * Create a `DbContext` called `InviteeContext` in new subdirectory called `Dao`
 * Create a `DbSet` called `Invitees`
