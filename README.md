@@ -3,7 +3,9 @@ Introduction to the Entity Framework
 
 ### Exercise 1
 Create an MVC application called `EFIntroductionMVC` using the `-o` option
+
 Create a new controller called `HousePartyController`
+
 Create a model called `HousePartyInvitee` with the following properties:
 
 HousePartyInvitee:
@@ -39,7 +41,9 @@ HousePartyInvitee:
 
 ### Exercise 2
 Create a console application called `EFIntroduction` using the `-o` option
+
 Create a wrapper class called `EFIntroductionWrapper`
+
 Create a model called `Product` with the following properties:
 
 Product:
